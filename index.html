@@ -32,7 +32,18 @@
                         </div>
                         <div class="ques_content">
                             <div class="ques_content_item">
-
+                                <div class="ques_content_row">
+                                    <div class="hot_ques">热门问题</div>
+                                    <div class="hot_title">吴亦凡强奸、聚众淫乱一案宣判「获刑 13 年附加...</div>
+                                </div>
+                                <div class="ques_content_row">
+                                    <div class="hot_ques">热门视频</div>
+                                    <div class="hot_title">我的世界杯记忆</div>
+                                </div>
+                                <div class="ques_content_row">
+                                    <div class="hot_ques">热门回答</div>
+                                    <div class="hot_title">如何看待刘强东发京东全员信，提出副总监级别以...</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -92,7 +103,7 @@
                         <div class="ques_header">
                             <div class='ques_header_item'>
                                 <div class="card-info">
-                                    <div class="card-info-title">新品情报局｜vivo X90 新品速报</div>
+                                    <div class="card-info-title">2 型糖尿病的控糖秘籍 —— 科学体重管理</div>
                                     <span class=card-info-count>5 小时前更新 · 370,438 浏览</span>
                                 </div>
                                 <div class="card-button">
@@ -174,10 +185,11 @@
 
     .ques_content_item {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 442px;
         height: 96px;
         margin: 20px 24px;
+        justify-content: space-between
     }
 
     .content {
@@ -264,6 +276,26 @@
         height: 34px;
         background-color: rgba(5,109,232,.08);
         width: 102px;
+    }
+    .ques_content_row {
+        display: flex;
+        flex-direction: row;
+ 
+ 
+    }
+    .hot_ques {
+        color: #8590a6;
+        flex-shrink: 0;
+        font-size: 12px;
+        height: 24px;
+        line-height: 24px;
+        padding: 0 8px;
+        background-color: #f1f1f1;
+        font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+        border-radius: 5px; 
+    }
+    .hot_title {
+        margin-left: 12px;
     }
 </style>
 
