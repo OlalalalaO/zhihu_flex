@@ -16,24 +16,24 @@
             <div class="column_1">
                 <div class="item">
                     <div class="item_pic">
-                        <img class="image" src="./assets/pic_1.jfif" alt="">
+                        <img class="image" src="./assets/pic_1.png" alt="">
                     </div>
                     <div class="item_text">
                         <div class="ques_header">
                             <div class='ques_header_item'>
-                                <div>
-                                    <div>新品情报局｜vivo X90 新品速报</div>
-                                    <span>5 小时前更新370,438 浏览</span>
+                                <div class="card-info">
+                                    <div class="card-info-title">知乎媒体每周看点1121～1127</div>
+                                    <span class=card-info-count>23 小时前更新 · 72,556,874 浏览</span>
                                 </div>
-                                <div>
+                                <div class="card-button">
                                     <button>关注专题</button>
                                 </div>
                             </div>
                         </div>
                         <div class="ques_content">
-                                <div class="ques_content_item">
+                            <div class="ques_content_item">
 
-                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="item_ques"></div>
@@ -44,7 +44,15 @@
                     </div>
                     <div class="item_text">
                         <div class="ques_header">
-
+                            <div class='ques_header_item'>
+                                <div class="card-info">
+                                    <div class="card-info-title">2022 世界物联网博览会</div>
+                                    <span class=card-info-count>23 小时前更新 · 3,933,941 浏览</span>
+                                </div>
+                                <div class="card-button">
+                                    <button>关注专题</button>
+                                </div>
+                            </div>
                         </div>
                         <div class="ques_content">
 
@@ -60,11 +68,14 @@
                     </div>
                     <div class="item_text">
                         <div class="ques_header">
-                            <div class="ques_header_test ques_header_item">
-
-                            </div>
-                            <div class="ques_header_btton ques_header_item">
-
+                            <div class='ques_header_item'>
+                                <div class="card-info">
+                                    <div class="card-info-title">妈妈的针线活</div>
+                                    <span class=card-info-count>11-24 更新 · 1,930,516 浏览</span>
+                                </div>
+                                <div class="card-button">
+                                    <button>关注专题</button>
+                                </div>
                             </div>
                         </div>
                         <div class="ques_content">
@@ -79,7 +90,15 @@
                     </div>
                     <div class="item_text">
                         <div class="ques_header">
-
+                            <div class='ques_header_item'>
+                                <div class="card-info">
+                                    <div class="card-info-title">新品情报局｜vivo X90 新品速报</div>
+                                    <span class=card-info-count>5 小时前更新 · 370,438 浏览</span>
+                                </div>
+                                <div class="card-button">
+                                    <button>关注专题</button>
+                                </div>
+                            </div>
                         </div>
                         <div class="ques_content">
 
@@ -152,13 +171,15 @@
         display: flex;
         flex-direction: row;
     }
-    .ques_content_item{
-        display:flex;
+
+    .ques_content_item {
+        display: flex;
         flex-direction: row;
         width: 442px;
         height: 96px;
         margin: 20px 24px;
     }
+
     .content {
         height: 940px;
         width: 1000px;
@@ -204,6 +225,45 @@
         display: flex;
         flex-direction: column;
 
+    }
+
+    .card-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-info-title {
+        font-size: 20px;
+        font-synthesis: style;
+        font-weight: 600;
+        line-height: 28px;
+        max-height: 56px;
+        width: 330px;
+    }
+
+    .card-info-count {
+        color: #999;
+        font-size: 12px;
+        height: 17px;
+        line-height: 17px;
+        margin-top: 4px;
+    }
+
+    .card-button {
+        display: flex;
+        justify-content: flex-end;
+        width: 120px;
+    }
+
+    button {
+        color: #056de8;
+        border-radius: 3px;
+        font-size: 14px;
+        border: none;
+        font-weight: 600;
+        height: 34px;
+        background-color: rgba(5,109,232,.08);
+        width: 102px;
     }
 </style>
 
